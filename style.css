@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #8c628e;
+}
+
+#calculator {
+  border: 1px solid #000;
+  padding: 10px;
+  background: #fff;
+  width: 230px;
+  border-radius: 5px;
+}
+
+input {
+  width: calc(4 * 50px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 2px;
+}
